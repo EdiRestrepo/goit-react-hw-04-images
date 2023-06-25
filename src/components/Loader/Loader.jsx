@@ -1,8 +1,6 @@
-import React, { Component } from "react";
 import css from "./Loader.module.scss";
 
-export class Loader extends Component {
-  render() {
+export const Loader = ()=> {
     return (
         <div className={css["loading"]}>
           <div className={css["i"]}></div>
@@ -11,6 +9,5 @@ export class Loader extends Component {
         </div>
     );
   }
-}
 
 export default Loader;

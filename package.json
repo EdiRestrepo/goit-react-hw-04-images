@@ -26,6 +26,7 @@
     "gh-pages": "^5.0.0",
     "notiflix": "^3.2.6",
     "postcss-normalize": "^10.0.1",
+    "prop-types": "^15.8.1",
     "sass": "^1.63.4",
     "vite": "^4.3.9"
   }
